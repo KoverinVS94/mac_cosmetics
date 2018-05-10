@@ -1,0 +1,518 @@
+@font-face {
+    font-family:'Amazing Grotesk';
+    src: url('../fonts/Amazing Grotesk.eot');
+	src: url('../fonts/Amazing Grotesk.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Amazing Grotesk.woff2') format('woff2'),
+		url('../fonts/Amazing Grotesk.woff') format('woff'),
+		url('../fonts/Amazing Grotesk.svg#Amazing Grotesk') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-04D9;
+}
+@font-face {
+    font-family:'Amazing Grotesk Demi Bold';
+    src: url('../fonts/Amazing Grotesk DemiBold.eot');
+	src: url('../fonts/Amazing Grotesk DemiBold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Amazing Grotesk DemiBold.woff2') format('woff2'),
+		url('../fonts/Amazing Grotesk DemiBold.woff') format('woff'),
+		url('../fonts/../fonts/Amazing Grotesk DemiBold.svg#Amazing Grotesk DemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-04D9;
+}
+@font-face {
+    font-family:'Amazing Grotesk Light';
+    src: url('../fonts/Amazing Grotesk Light.eot');
+	src: url('../fonts/Amazing Grotesk Light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Amazing Grotesk Light.woff2') format('woff2'),
+		url('../fonts/Amazing Grotesk Light.woff') format('woff'),
+		url('../fonts/Amazing Grotesk Light.svg#Amazing Grotesk Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-04D9;
+}
+*{
+	padding: 0;
+	margin: 0;
+}
+ul{
+	list-style: none;
+}
+header{
+	position: relative;
+	background-image:url(../img/bg-header-banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+header .left-bottom-text{
+	text-align: right;
+	margin-top: 600px;
+}
+header .left-bottom-text .in-set{
+	font-size: 22px;
+	color:black;
+	font-family:'Amazing Grotesk Demi Bold';
+	font-style: italic;
+}
+header .left-bottom-text .list-in-set li{
+	display: inline-block;
+	margin: 0 0 0 20px;
+	font-style: italic;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: lighter;
+	font-size: 18px;
+}
+header .right-text .surprize-set{
+	margin-top: 100px;
+	font-size: 23px;
+	letter-spacing: 13.5px;
+	color:black;
+	font-weight: 900;
+	text-align: right;
+}
+header .right-text .in51{
+	font-size: 80px;
+	text-align: right;
+	color:black;
+	font-weight: bold;
+	font-family:'Amazing Grotesk Demi Bold';
+}
+header .right-text .name-mac{
+	font-size: 42px;
+	color:black;
+	text-align: right;
+	font-family:'Amazing Grotesk';
+}
+header .right-text .info1{
+	font-size: 25px;
+	color:black;
+	margin-left: 64px;
+	font-family:'Amazing Grotesk';
+}
+header .right-text .info2{
+	font-size: 19px;
+	color:black;
+	margin-left: 64px;
+	font-style: italic;
+	font-family:'Open Sans', sans-serif;
+}
+header .right-text .info3{
+	font-size: 22px;
+	color:black;
+	margin-left: 64px;
+	font-family:'Amazing Grotesk Demi Bold';
+	font-style: italic;
+}
+header .right-text .info3 span{
+	font-size: 19px;
+	color:black;
+	font-style: italic;
+	font-family:'Open Sans', sans-serif;
+	font-weight: lighter;
+}
+header .right-text .price{
+	font-size: 32px;
+	color:black;
+	margin-left: 150px;
+	line-height: 60px;
+	font-family:'Amazing Grotesk Demi Bold';
+}
+header .right-text .price span{
+	font-size: 92px;
+	color:black;
+	font-family:'Amazing Grotesk Demi Bold';
+	font-weight: bold;
+}
+.main-menu {
+	text-align: right;
+	z-index: 10;
+}
+.main-menu ul{
+	padding: 30px 0; 
+}
+.main-menu ul li{
+	display:inline-block;
+	margin-left: 28px;
+}
+.slicknav_menu ul li a{
+	text-transform: uppercase;
+}
+.main-menu ul li:last-child a{
+	color:#ad222c;
+}
+.main-menu ul li a{
+	color:black;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+}
+.main-menu ul li a:hover{
+	color:#ad222c;
+	text-decoration: none;
+}
+
+.block-mac{
+	padding: 80px 0;
+}
+.block-mac .t1{
+	font-size: 42px;
+	color:black;
+	text-align: center;
+	padding-bottom: 30px;
+	font-family:'Amazing Grotesk';
+}
+.block-mac .text-about-mac{
+	color:#787878;
+	font-size: 16px;
+	text-align: center;
+	padding: 0 150px;
+	font-size: inherit;
+}
+.block-doc{
+	background-image: url(../img/bg-block-doc.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+}
+.block-doc .t1{
+	font-size: 30px;
+	color: white;
+	padding: 301px 0 50px 30px;
+	font-family:'Amazing Grotesk';
+}
+.block-doc .text-our-product{
+	font-size: 33px;
+	color: white;
+	padding: 0 0 110px 60px;
+	font-family:'Amazing Grotesk';
+}
+.block-doc .img-conture{
+	position: absolute;
+	top:330px;
+}
+.block-testimonials{
+	padding: 100px 0 0 0;
+}
+.block-testimonials .testimonials-item{
+	margin-bottom: 100px;
+}
+.block-testimonials .testimonials-item .avatar{
+	float:left;
+	margin-right: 30px;
+}
+.block-testimonials .testimonials-item .box-text-testimonials .name{
+	color:#393c41;
+	font-size: 19px;
+	font-weight: 600;
+	font-family:'Amazing Grotesk';
+}
+.block-testimonials .testimonials-item .box-text-testimonials .city{
+	color:#393c41;
+	font-size: 19px;
+	padding-bottom: 20px;
+	font-family:'Amazing Grotesk Light';
+	font-style: italic;
+	font-weight: lighter;
+}
+.block-testimonials .testimonials-item .box-text-testimonials .testmon-text{
+	color:#393c41;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+}
+.block-dov{
+	background-image: url(../img/bg-dov.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.block-dov .love-product-text{
+	font-size: 63px;
+	color:white;
+	text-align: right;
+	padding: 180px 0 100px 0;
+	font-family: 'Baskerville Light Italic', arial;
+}
+.block-dov .text-surprize p{
+	font-size: 23px;
+	color:white;
+	letter-spacing: 16.5px;
+	text-align: right;
+	margin: 0 -16px 0 0px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 900;
+}
+.block-dov .text-surprize span{
+	font-size: 42px;
+	color:white;
+	display: block;
+	margin-bottom: 100px;
+	text-align: right;
+	font-family:'Amazing Grotesk';
+}
+.block-12-set{
+	background-image: url(../img/bg-12.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	padding: 100px 0 200px 0;
+}
+.block-12-set .t1{
+	color:black;
+	font-size: 42px;
+	margin: 0;
+	font-family:'Amazing Grotesk';
+}
+.block-12-set .t2{
+	color:black;
+	font-size: 33px;
+	font-family:'Amazing Grotesk';
+}
+.block-12-set ol{
+	margin: 20px 0 0 40px; 
+}
+.block-12-set ol li{
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	font-style: italic;
+	font-weight: lighter;
+}
+.block-services{
+	padding: 80px 0;
+}
+.block-services .service-item{
+	text-align: center;
+	padding: 0 44px;
+}
+.block-services .service-item .t1{
+	font-size: 12px;
+	font-weight: 600;
+	padding: 10px 0;
+	text-transform: uppercase;
+}
+.block-services .service-item .text-service{
+	font-size: 15px;
+	color:#787878;
+}
+.block-offer{
+	background-image: url(../img/bg-timer.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.block-offer .t1{
+	font-size: 49px;
+	color:black;
+	margin-top: 125px;
+	margin-left: 45%;
+	margin-bottom: 50px;
+	font-family:'Amazing Grotesk';
+}
+.block-offer .st1{
+	font-size: 23px;
+	color:black;
+	margin-left: 37%;
+	margin-bottom:175px;
+	font-family:'Amazing Grotesk';
+}
+.block-offer .timer {
+	display: inline-block;
+	margin-left: 24%;
+	margin-bottom: 27%;
+}
+.block-offer .timer .time-limit{
+	font-size: 16px;
+	color:black;
+	text-align: right;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+}
+.block-offer .timer .timer-separator{
+	color:black !important;
+}
+.block-work{
+	padding: 80px 0;
+	margin: -110px 0 0 0;
+}
+.block-work .work-item{
+	text-align: center;
+	padding: 0 30px;
+	position: relative;
+}
+.block-work .work-item:nth-of-type(4):after{
+	display: none;
+}
+.block-work .work-item:after{
+	content:'';
+	position: absolute;
+	top:41px;
+	left: 268px;
+	display: block;
+	width: 90px;
+	height: 18px;
+	background-image: url(../img/arrow.png);
+	background-repeat: no-repeat;
+}
+.block-work .work-item .t1{
+	font-size: 12px;
+	font-weight: 600;
+	padding: 10px 0;
+	text-transform: uppercase;
+}
+.block-work .work-item .text-work{
+	font-size: 15px;
+	color:#787878;
+}
+.block-order{
+	background: #e5edee;
+	padding: 75px 0;
+}
+.block-order .t1{
+	font-size: 34px;
+	color:black;
+	text-align: center;
+	margin-bottom: 30px;
+	font-family:'Amazing Grotesk';
+}
+.block-order .st1{
+	font-size: 20px;
+	color:#434343;
+	text-align: center;
+	margin-bottom: 75px;
+	font-family:'Amazing Grotesk';
+}
+.block-order .form-order{
+	width: 675px;
+	margin: 0 auto;
+}
+.block-order .form-order form input[type="text"]{
+	border: none;
+	padding: 15px;
+	background: white;
+	width: 100%;
+}
+.block-order .form-order form input[type="tel"]{
+	border: none;
+	padding: 15px;
+	background: white;
+	width: 100%;
+}
+.block-order .form-order form .lvl-4{
+	text-align: center;
+}
+.block-order .form-order form input[type="submit"]{
+	border: none;
+	padding: 15px 30px;
+	background-image:url(../img/btn-submit.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	color:white;
+	text-transform: uppercase;
+}
+.block-order .form-order form textarea{
+	border: none;
+	padding: 15px;
+	background: white;
+	width: 100%;
+	height: 150px;
+}
+.block-order .form-order .lvl{
+	padding-bottom: 20px;
+}
+.block-order .text-delivery{
+	text-align: center;
+	color:black;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+}
+.block-present{
+	background-image:url(../img/bg-present.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 130px 0 170px 0;;
+}
+.block-present .t1{
+	color:#ad222c;
+	font-size: 27px;
+	margin-bottom: 15px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 900;
+}
+.block-present .text-present{
+	margin-left: 150px;
+}
+.block-present .big-t2{
+	color:black;
+	font-size:90px;
+	font-family:'Amazing Grotesk';
+}
+.block-present .st1{
+	color:black;
+	font-size: 27px;
+	font-family:'Amazing Grotesk';
+}
+footer{
+	background: #141414;
+	padding: 75px 0;
+}
+footer .t1{
+	color:white;
+	font-size: 13px;
+	margin-bottom: 20px;
+	font-family:'Amazing Grotesk';
+	font-weight: bold;
+}
+footer .copyright{
+	color:#bcbcbc;
+	font-size: 13px;
+	margin-bottom: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+footer .footer-main-menu{
+	text-align: right;
+}
+footer .footer-main-menu li{
+	display: inline-block;
+	margin: 0 20px 20px 20px;
+	text-align: right;
+}
+footer .footer-main-menu li:last-child a{
+	color:#ad222c;
+}
+footer .footer-main-menu li a{
+	color:white;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-family: 'Open Sans', sans-serif;
+}
+footer .footer-main-menu li a:hover{
+	color:#ad222c;
+	text-decoration: none;
+}
+.right-text-mobile{
+	display: none;;
+}
+.product-img-mobile{
+	display:none;
+}
+.product-pressent-mobile{
+	display: none;
+}
+.border-img img{border: 15px solid #ebebeb;}
+.block-12-set ol li a{
+	color: #333;
+}
+.block-12-set ol li a:hover{
+	color: #ad222c;
+}
+.block-12-set .choose-color{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+}
+

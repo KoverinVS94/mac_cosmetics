@@ -1,0 +1,257 @@
+@media screen and (min-width: 1700px){
+.block-offer .timer{
+		margin-bottom: 39%;
+	}
+}
+@media screen and (max-width: 1400px){
+	.block-doc .t1{
+		padding: 201px 0 50px 30px;
+	}
+	.block-doc .img-conture{
+		top:231px;
+	}
+	.block-dov .love-product-text{
+		font-size: 50px;
+	}
+	.block-present{
+		padding: 100px 0 130px 0;
+	}
+	.block-present .big-t2{
+		font-size: 80px;
+	}
+	.block-offer .timer{
+		margin-bottom: 15%;
+	}
+	
+}
+@media screen and (max-width: 1200px){
+	.block-work .work-item:after{
+		display: none;
+	}
+	.block-present{
+		padding: 90px 0 90px 0;
+	}
+	.block-present .big-t2{
+		font-size: 70px;
+	}
+	.block-12-set .t1{
+		font-size: 40px;
+	}
+	.block-12-set .t2{
+		font-size: 31px;
+	}
+	.block-12-set{
+		padding: 100px 0 100px 0;
+	}
+	
+	header .right-text .surprize-set{
+		font-size: 20px;
+	}
+	header .right-text .name-mac{
+		font-size: 40px;
+	}
+	header .right-text .info1{
+		font-size: 22px;
+	}
+	header .left-bottom-text{
+		margin-top: 600px;
+	}
+	header .right-text .in51{
+		font-size: 60px;
+	}
+	.block-doc .t1{
+		padding: 125px 0 50px 30px;
+	}
+	.block-doc .img-conture{
+		top:155px;
+	}
+	.block-dov .love-product-text {
+		font-size: 37px;
+		padding: 90px 0 100px 0;
+	}
+	.block-dov .text-surprize p{
+		font-size: 20px;
+	}
+	.block-dov .text-surprize span{
+		font-size: 40px;
+	}
+}
+
+@media screen and (min-width: 992px){
+
+}
+@media screen and (max-width: 991px){
+	.footer-main-menu{
+		display: none;
+	}
+	.slicknav_menu{
+		display: block !important;
+	}
+	.main-menu{
+		display: none;
+	}
+	.block-present {
+		padding: 60px 0 60px 0;
+	}
+	.block-present .big-t2{
+		font-size: 50px;
+	}
+	.block-present .t1{
+		font-size: 25px;
+	}
+	.block-present .st1{
+		font-size: 25px;
+	}
+	.block-doc .t1{
+		padding: 61px 0 50px 30px;
+	}
+	.block-doc .img-conture{
+		top:91px;
+	}
+	header .left-bottom-text{
+		margin-top: 20px;
+	}
+	header{
+		background-image:url(../img/bg-header-banner-1.jpg);
+		background-position: left;
+	}
+	header .right-text .info1{
+		text-align: right;
+	}
+	header .right-text .info2{
+		text-align: right;
+	}
+	header .right-text .info3{
+		text-align: right;
+	}
+	header .right-text .surprize-set{
+		margin-top: 50px;
+	}
+	.block-mac .text-about-mac{
+		padding: 0;
+	}
+	.block-12-set {
+		padding: 50px 0 50px 0;
+	}
+	.block-services .service-item {
+		padding: 30px 44px;
+	}
+	.block-offer .t1{
+		margin-top: 30px;
+		font-size: 40px;
+	}
+	.block-offer .st1{
+		margin-bottom: 100px;
+	}
+	.block-offer .timer{
+		margin-left: 0;
+	}
+	.block-work{
+		padding: 0;
+	}
+	.block-work .work-item{
+		padding: 30px;
+	}
+	.block-work .work-item:after{
+		display: none;
+	}
+	.block-order .form-order{
+		width: 100%;
+	}
+	.block-order .form-order form input[type="text"]{
+		margin-bottom: 22px;
+	}
+}
+@media screen and (min-width: 768px){
+
+}
+@media screen and (max-width: 767px){
+	.block-offer .st1{
+		margin: 0 0 350px 0;
+		font-size: 19px;
+	}
+	.block-offer .timer .time-limit{
+		text-align: center;
+	}
+	.block-doc .t1{
+		padding: 30px 0 50px 30px;
+	}
+	.block-doc .img-conture{
+		display: none;
+	}
+	.block-doc .text-our-product{
+		padding: 0 0 55px 30px;
+	}
+	.block-present .text-present{
+		margin-left: 10px;
+	}
+	.block-present{
+	
+	}
+	.block-offer .t1{
+		margin-left: 0;
+	}
+	.timer #timera944380a18f1851bfe06164e8959ad58{
+		min-width: auto !important;
+	}
+	header{
+		background-position: 20%;
+	}
+	header .right-text .price span{
+		font-size: 70px;
+	}
+	.block-doc .text-our-product{
+		font-size: 23px;
+	}
+	.block-doc .t1{
+		padding: 20px 0 40px 30px;
+	}
+	.block-doc .t1{
+		font-size: 28px;
+	}
+	.block-doc{
+		background-position: right;
+	}
+	.block-testimonials .testimonials-item .avatar{
+		width: 100%;
+	}
+	.block-dov .love-product-text {
+		font-size: 37px;
+		padding: 25px 0 25px 0;
+	}
+	.block-dov{
+		background-image: url(../img/bg-dov-1.jpg);
+		background-position: left;
+	}
+}
+
+@media screen and (max-width: 600px){
+	.block-dov{
+		background-position: -1000px;
+	}
+	.right-text-desktop{
+		display: none;
+	}
+	.right-text-mobile{
+		display: block;
+	}
+	header .left-bottom-text{
+		display: none;
+	}
+	.product-img-mobile{
+		display: block;
+	}
+	.product-pressent-mobile{
+		display: block;
+	}
+	.border-img img{
+		width: 100%;
+		margin-top: 20px;
+	}
+}
+@media screen and (max-width: 450px){
+
+}
+@media screen and (max-width: 375px){
+
+}
